@@ -21,6 +21,7 @@ function routerArr(files) {
     sqlite3obj[files[i].split('.')[0]] = new sqlite3.Database('./pak/' + files[i], function (err) {
       if (err == null) {
         console.log('*******成功链接' + files[i] + '数据库*******')
+        
       } else {
         console.log('*******链接' + files[i] + '数据库失败*******')
       }
@@ -39,6 +40,7 @@ function routerArr(files) {
       return 'blocks_' + z + '_' + tx + '_' + ty;
     }
   }
+  
   router.use('/mapserve', function (req, res, next) {
     let key = req.originalUrl.split('/');
     let objkey = key[2];
