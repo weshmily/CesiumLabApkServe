@@ -9,7 +9,7 @@ var filePath = path.resolve('./pak');
 
 fs.readdir(filePath, function (err, files) {
   if (files.length === 0) {
-    console.log('*******pak文件夹没有pak文件*******')
+    console.log("\033[31m *******pak文件夹没有pak文件******* \033[0m")
   } else {
     routerArr(files)
   }
@@ -20,10 +20,11 @@ function routerArr(files) {
   for (let i = 0; i < files.length; i++) {
     sqlite3obj[files[i].split('.')[0]] = new sqlite3.Database('./pak/' + files[i], function (err) {
       if (err == null) {
-        console.log('*******成功链接' + files[i] + '数据库*******')
+        // console.log('*******成功链接' + files[i] + '数据库*******')
+        console.log("\033[32m *******成功链" + files[i] + "数据库******* \033[0m")
         
       } else {
-        console.log('*******链接' + files[i] + '数据库失败*******')
+        console.log("\033[32m *******链接" + files[i] + "数据库失败******* \033[0m")
       }
     })
   }

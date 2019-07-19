@@ -23,8 +23,10 @@ fs.readdir(filePath, function (err, files) {
     return
   } else {
     for (let i = 0; i < files.length; i++) {
-      console.log('地图服务地址:↓↓↓↓↓↓↓↓↓↓')
+      console.log(" ")
+      console.log("\033[34m 地图服务地址:↓↓↓↓↓↓↓↓↓↓ \033[0m")
       console.log('http://localhost:' + port + '/mapserve/' + files[i].split('.')[0] + '/{z}/{x}/{y}')
+      console.log(" ")
     }
   }
 })
