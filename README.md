@@ -33,6 +33,11 @@ npm install
 
 看到了吗此时就会显示两个地址了
 
+### 另外(SQLite Exper)
+**数据库SQLite Expert也可以打开.pak文件进行编辑**
+
+数据库下载地址:https://1-1251311788.cos.ap-beijing-1.myqcloud.com/SQLite%20Expert.zip
+
 
 ## 作者
 #### 作者: weshmily科技站长
