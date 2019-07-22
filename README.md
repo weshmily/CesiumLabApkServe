@@ -33,7 +33,7 @@ npm install
 
 看到了吗此时就会显示两个地址了
 
-### 另外(SQLite Exper)
+### 另外
 
 **1.建议使用pm2启动本服务**
 pm2使用说明:https://blog.csdn.net/cs380637384/article/details/82682799
