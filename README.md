@@ -34,7 +34,11 @@ npm install
 看到了吗此时就会显示两个地址了
 
 ### 另外(SQLite Exper)
-**数据库SQLite Expert也可以打开.pak文件进行编辑**
+
+**1.建议使用pm2启动本服务**
+pm2使用说明:https://blog.csdn.net/cs380637384/article/details/82682799
+
+**2.数据库SQLite Expert也可以打开.pak文件进行编辑**
 
 数据库下载地址:https://1-1251311788.cos.ap-beijing-1.myqcloud.com/SQLite%20Expert.zip
 
