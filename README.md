@@ -36,6 +36,7 @@ npm install
 ### 另外
 
 **1.建议使用pm2启动本服务**
+
 pm2使用说明:https://blog.csdn.net/cs380637384/article/details/82682799
 
 **2.数据库SQLite Expert也可以打开.pak文件进行编辑**
