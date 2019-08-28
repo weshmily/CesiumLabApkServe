@@ -1,4 +1,4 @@
-# CeisumLabApkServe
+# CesiumLabApkServe
 
 > 为CeisumLab工具下载地图,影像数据的.pak文件架设地图服务
 
@@ -6,7 +6,7 @@
 node下载地址:https://nodejs.org/zh-cn/
 ### gihub下载地址: (别忘了点星星)
 ```
-https://github.com/weshmily/CeisumLabApkServe
+https://github.com/weshmily/CesiumLabApkServe
 ```
 ### 安装依赖包
 ```
