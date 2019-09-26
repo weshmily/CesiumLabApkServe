@@ -22,7 +22,7 @@ function routerArr(files) {
       if (err == null) {
         // console.log('*******成功链接' + files[i] + '数据库*******')
         console.log("\033[32m *******成功链" + files[i] + "数据库******* \033[0m")
-        
+
       } else {
         console.log("\033[32m *******链接" + files[i] + "数据库失败******* \033[0m")
       }
@@ -41,7 +41,7 @@ function routerArr(files) {
       return 'blocks_' + z + '_' + tx + '_' + ty;
     }
   }
-  
+
   router.use('/mapserve', function (req, res, next) {
     let key = req.originalUrl.split('/');
     let objkey = key[2];
@@ -64,6 +64,7 @@ function routerArr(files) {
     })
 
   });
+  
 }
 
 module.exports = router;
