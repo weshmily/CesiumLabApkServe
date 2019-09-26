@@ -5,7 +5,16 @@ var sqlite3 = require('sqlite3').verbose();
 var router = express.Router();
 /* GET home page. */
 var filePath = path.resolve('./pak');
+var tilePath = path.resolve('./tile');
 
+fs.readdir(tilePath, function (err, files) {
+  if (files.length !== 0) {
+    for (let i = 0; i < files.length; i++) {
+      console.log("\033[32m 瓦片地图服务地址:↓↓↓↓↓↓↓↓↓↓ \033[0m")
+      console.log(`http://localhost:3000/${files[i]}/{z}/{x}/{y}.png`)
+    }
+  }
+})
 
 fs.readdir(filePath, function (err, files) {
   if (files.length === 0) {
@@ -14,6 +23,8 @@ fs.readdir(filePath, function (err, files) {
     routerArr(files)
   }
 })
+
+
 
 var sqlite3obj = {};
 function routerArr(files) {
@@ -64,7 +75,7 @@ function routerArr(files) {
     })
 
   });
-  
+
 }
 
 module.exports = router;
