@@ -33,6 +33,15 @@ npm install
 
 看到了吗此时就会显示两个地址了
 
+
+### 开启静态瓦片服务
+
+只需要把瓦片图片复制到根目录tile目录下像这样
+
+![在这里插入图片描述](https://csdn-1251311788.cos.ap-chengdu.myqcloud.com/wapia.png)
+![在这里插入图片描述](https://csdn-1251311788.cos.ap-chengdu.myqcloud.com/wapian.png)
+![在这里插入图片描述](https://csdn-1251311788.cos.ap-chengdu.myqcloud.com/wapiantimg.png)
+
 ### 另外
 
 **1.建议使用pm2启动本服务**
