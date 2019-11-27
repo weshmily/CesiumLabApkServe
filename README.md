@@ -11,6 +11,10 @@ https://github.com/weshmily/CesiumLabApkServe
 ### 安装依赖包
 ```
 npm install
+
+or
+
+双击install.bat文件
 ```
 
 ### 使用说明
@@ -23,7 +27,7 @@ npm install
 #### 放到CeisumLabApkServe服务的pak目录
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190718163019861.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI3MTE4ODk1,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019071816311012.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI3MTE4ODk1,size_16,color_FFFFFF,t_70)
-#### 开启服务(npm run serve)
+#### 开启服务(npm run serve) or 双击 start.bat文件
 在服务根目录打开cmd或者powershell
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190718165520514.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI3MTE4ODk1,size_16,color_FFFFFF,t_70)
 #### 开启两个地图服务
