@@ -9,6 +9,11 @@ var indexRouter = require('./routes/index');
 
 var app = express();
 
+// CROS 
+var cors = require('cors')
+app.use(cors())
+
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
